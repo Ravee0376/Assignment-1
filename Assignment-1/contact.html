@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+   
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <ul class="navbar">
+          <li><a href="index.html">Home page</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+          <!-- <li><a href="links.html">Links</a></li> -->
+          <li><a href="blog.html">Blogs</a></li>
+          <li><a href="category.html">Category</a></li>
+        </ul>
+      </div>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p>Have questions or want to get in touch? Fill out the form below, and our team will get back to you as soon as possible.</p>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Your Name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Your Email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea><br>
+            <input type="submit" value="Send Message">
+        </form>
+        <img src="contract-1.jpg" alt="Contact Us">
+        <img src="contract-2.jpg" alt="Get in Touch">
+        <a href="https://twitter.com">Follow us on Twitter</a>
+        <address>Email us at 234456@example.com</address>
+    </div>
+</body>
+</html>
