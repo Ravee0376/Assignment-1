@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+  background-color: #f0f0f4;
+  font-family: 'Nunito', sans-serif; /* Primary font */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Bar Styles */
+/* .navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  
+}
+
+.navbar li {
+  float: left;
+
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover, .navbar li a.active {
+  background-color: #111;
+} */
+
+/* Navigation Bar Styles */
+.navbar {
+  list-style-type: none;
+  margin: 0 auto; /* Center the navbar */
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 55%; /* Adjust this value to set the desired width */
+  text-align: center;
+}
+
+.navbar li {
+  float: none; /* Since we're centering the items, let's not float them */
+  display: inline-block; /* Display items inline */
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+/* Container Styles */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;  
+}
+
+/* Typography */
+h1, h2, p, address {
+  font-family: 'Roboto', sans-serif; /* Secondary font */
+  color: #333;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+address {
+  color: #888;
+  font-style: italic;
+  font-size: 15px;
+}
+
+/* Image Styles */
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Flex Container for Images */
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
